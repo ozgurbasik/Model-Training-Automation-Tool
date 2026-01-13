@@ -1,0 +1,75 @@
+# Dataset klasörleri (çok büyük olduğu için repo'ya eklenmeyecek)
+Dataset*/
+Dataset_Merged*/
+Dataset_Reorganized*/
+FullDataset*/
+
+# Model dosyaları (çok büyük)
+*.pt
+*.pth
+*.onnx
+*.trt
+yolo11n.pt
+yolov8n.pt
+
+# MLflow çalışma dosyaları
+mlruns/
+
+# Çıktı ve test sonuçları
+outputs/
+test_results/
+test_outputs/
+# Python cache ve temp dosyalar
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+runs/
+# IDE dosyaları
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
+
+# Environment dosyaları
+.env
+.venv/
+env/
+venv/
+
+# Log dosyaları
+*.log
+downloaded_datasets/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Split dosyaları (dataset path'ler içerir)
+splits*/
+datasetdenm*
+denemesplits
+# Label dosyaları (dataset'e özgü)
+labels/
+
+# Train config
+# configs/  # Bu satırı yorum satırı yap
+configs/train_config.yaml
+# veya tüm config dosyalarını ignore et:
+# configs/*.yaml
+
+
+# Geçici dosyalar
+*.tmp
+*.temp
+

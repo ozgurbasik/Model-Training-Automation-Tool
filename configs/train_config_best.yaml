@@ -1,0 +1,47 @@
+augmentation:
+  augment: true
+  augment_val: false
+  blur: 0.1
+  brightness: 0.3
+  contrast: 0.2
+  crop_scale: 0.8
+  cutmix: 0.0
+  elastic: 0.1
+  grid_distortion: 0.1
+  horizontal_flip: 0.5
+  hue: 0.1
+  mixup: 0.0
+  mosaic: 0.0
+  noise: 0.1
+  rotation: 10.0
+  saturation: 0.2
+  scale: 0.1
+  translation: 0.1
+common:
+  batch_size: 4
+  early_stopping:
+    enabled: true
+    min_delta: 0.001
+    monitor: val_loss
+    patience: 5
+  epochs: 5
+  img_size: 640
+  lr: 0.0006251373574521745
+  output_dir: outputs
+  overfitting_detection:
+    enabled: true
+    loss_gap_threshold: 0.5
+    metric_degradation_threshold: 0.05
+  preview_samples: 4
+  weight_decay: 2.9375384576328295e-05
+data:
+  dataset_root: Dataset/RcCArDataset
+  detection_labels_root: labels_all/detection
+  segmentation_masks_root: splits
+  splits_dir: C:\Users\basik\Desktop\OzgurLocal\RC_CV\RC-Car-Model-Training\splits
+detection:
+  model_name: yolov8n
+run_name: tuning_trial_2
+segmentation:
+  model_name: unet
+task_type: segmentation

@@ -1,0 +1,53 @@
+# Çekirdek bilimsel kütüphaneler
+numpy==1.26.4
+pandas==2.2.3
+
+# Derin öğrenme (CUDA 12.1 ile test edildi)
+torch==2.5.1
+torchvision==0.20.1
+
+# Görüntü işleme
+opencv-python==4.10.0.84
+Pillow==10.4.0
+albumentations==1.4.18
+
+# Veri ayrımı vb.
+scikit-learn==1.5.2
+
+# Config ve logging
+PyYAML==6.0.2
+mlflow==2.17.1
+
+# Web arayüz
+streamlit==1.40.2
+
+# İsteğe bağlı yardımcılar
+typing-extensions==4.12.2
+
+# Hugging Face dataset indirme
+datasets==3.1.0
+huggingface_hub==0.26.2
+
+# Model kütüphaneleri
+ultralytics==8.3.47  # YOLOv8, YOLOv5
+timm==1.0.9  # Çeşitli modeller
+segmentation-models-pytorch==0.3.3  # Segmentation modelleri
+matplotlib==3.9.2  # Grafikler
+transformers==4.46.2  # DETR, SegFormer, Mask2Former
+mmsegmentation==1.2.2  # SegNeXt, DDRNet, PIDNet, TopFormer
+
+# Opsiyonel paketler (özel kurulum gerektirir - aşağıdaki notlara bakın)
+# detectron2: DETR, Mask2Former, Cascade R-CNN için
+#   Kurulum: pip install 'git+https://github.com/facebookresearch/detectron2.git'
+#   veya: pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/torch2.0/index.html
+#   CUDA için: https://github.com/facebookresearch/detectron2/blob/main/INSTALL.md
+
+# mmdetection: FCOS, ATSS, EfficientDet için
+#   Kurulum: pip install mmdet
+#   veya: https://mmdetection.readthedocs.io/en/latest/get_started.html
+
+# mmsegmentation: SegNeXt, DDRNet, PIDNet, TopFormer için
+#   Kurulum: pip install mmsegmentation
+#   veya: https://mmsegmentation.readthedocs.io/en/latest/get_started.html
+
+
