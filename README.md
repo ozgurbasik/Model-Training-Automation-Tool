@@ -1,34 +1,35 @@
 # TEDU Autonomous RC Car Model Training Tool
-Otonom RC araçlar için nesne tespiti ve segmentasyon modelleri eğiten kapsamlı makine öğrenmesi platformu.
+Comprehensive machine learning platform for training object detection and segmentation models for autonomous RC vehicles.
 
-## 📋 Kurulum
+## 📋 Installation
 
-### Adımlar
-1. **Repo'yu klonla:**
+### Steps
+1. **Clone the repository:**
 ```bash
 cd RC-Car-Model-Training
 ```
 
-2. **Sanal ortam oluştur:**
+2. **Create virtual environment:**
 ```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
-# veya
+# or
 venv\Scripts\activate  # Windows
 ```
 
-3. **Bağımlılıkları yükle:**
+3. **Install dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
 
-## 🎯 Kullanım
+## 🎯 Usage
 
-### Streamlit Arayüzü (Önerilen)
+### Streamlit Interface (Recommended)
 ```bash
 streamlit run app/main.py
 ```
 
 ---
-## 📚 Dokümantasyon
-**💡 Daha fazla bilgi için `documents/` klasöründeki dokümanları okuyunuz.**
+
+## 📚 Documentation
+**💡 For more information, please refer to the documentation in the `documents/` folder.**
