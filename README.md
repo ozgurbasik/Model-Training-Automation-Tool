@@ -6,7 +6,7 @@ Comprehensive machine learning platform for training object detection and segmen
 ### Steps
 1. **Clone the repository:**
 ```bash
-cd RC-Car-Model-Training
+cd Model-Training-Automation-Tool
 ```
 
 2. **Create virtual environment:**
