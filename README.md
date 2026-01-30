@@ -1,4 +1,4 @@
-#TEDU Autonomous RC Car Model Training Tool
+# TEDU Autonomous RC Car Model Training Tool
 
 Otonom RC araçlar için nesne tespiti ve segmentasyon modelleri eğiten kapsamlı makine öğrenmesi platformu.
 
