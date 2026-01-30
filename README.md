@@ -1,4 +1,4 @@
-# TEDU Autonomous RC Car Model Training Tool
+# TEDU Autonomous Vehicle Project (TAVP) Model Training Tool 
 Comprehensive machine learning platform for training object detection and segmentation models for autonomous RC vehicles.
 
 ## 📋 Installation
